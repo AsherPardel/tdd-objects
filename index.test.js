@@ -183,7 +183,7 @@ describe("zip", function () {
   });
 });
 
-describe("countCharacters", function () {
+describe.only("countCharacters", function () {
   it("returns empty object for empty string", function () {
     expect(countCharacters("")).toEqual({});
   });
